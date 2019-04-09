@@ -2,14 +2,9 @@
   "name": "test-titarenko",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
-  "dependencies": {
-    "express": "^4.16.4"
-  },
-  "devDependencies": {},
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -20,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/OlgaTitarenko/test-titarenko/issues"
   },
-  "homepage": "https://github.com/OlgaTitarenko/test-titarenko#readme"
+  "homepage": "https://github.com/OlgaTitarenko/test-titarenko",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
 }
