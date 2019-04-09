@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Personal Information</h1>
+ <form id="my-form">
+     <fieldset>
+         <legend>
+             <h3>Personal Information</h3>
+         </legend>
+
+         <label>Surname:<input type="text" name="surname"></label><br>
+         <label>Name:<input type="text" name="name" ></label><br>
+         <label>How old are You?:<input type="text" name="age" min="0"></label><br>
+         <label>Full date of birth:<input type="date" name="birthDay"></label><br>
+         <label>I accept the terms of the agreement<input type="checkbox" name="acception"></label><br>
+     </fieldset>
+     <fieldset>
+         <legend>
+             <h3>Registration</h3>
+         </legend>
+         <label>E-mail<input type="email" name="email"></label><br>
+         <label>Password<input type="password" name="password"></label><br>
+     </fieldset>
+     <fieldset>
+         <legend>
+             <h3>An interestiong fact about you!</h3>
+         </legend>
+         <label>Do you love cats?
+             <input type="radio" value="Yes" name="cats">
+             <input type="radio" value="Not" name="cats" checked>
+         </label><br>
+         <label>What is your favorite color?<input type="color" name="color"></label><br>
+         <label>What time do you go to bed?<input type="time" name="sleepTime"></label><br>
+         <label>What your favorite brand of cars?
+             <select name="cars">
+                 <option value="bmv">BMV</option>
+                 <option value="audi">Audi</option>
+                 <option value="opel">Opel</option>
+             </select>
+         </label><br>
+         <label>Hoe do rate our work?<input type="range" name="rating"></label>
+     </fieldset>
+     <fieldset>
+         <legend>
+             <h3>Your comments:</h3>
+         </legend>
+         <textarea placeholder="Comments" rows="3" cols="40" name="comment"></textarea>
+     </fieldset><br>
+
+    <button>Send</button>
+</form>
+
+<div id="users"></div>
+
+<script src="main.js">
+</script>
+
+</body>
+</html>
